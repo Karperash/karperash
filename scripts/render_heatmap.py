@@ -46,27 +46,19 @@ fill="{colors[min(value,4)]}"/>
 """
 
 
-delay = (x * 7 + y) * 0.03
+svg += """
 
-svg += f"""
-<rect
-x="{40 + x*(size+gap)}"
-y="{50 + y*(size+gap)}"
-width="{size}"
-height="{size}"
-rx="3"
-fill="{colors[min(value,4)]}"
-opacity="0">
+<text x="40"
+y="25"
+fill="#58a6ff"
+font-family="monospace"
+font-size="18">
 
-<animate
-attributeName="opacity"
-from="0"
-to="1"
-begin="{delay}s"
-dur="0.5s"
-fill="freeze"/>
+Karperash activity
 
-</rect>
+</text>
+
+</svg>
 """
 
 
