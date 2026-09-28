@@ -5,8 +5,7 @@ name = "Karperash"
 role = "AI Engineer"
 skills = [
     "Python",
-    "PyTorch",
-    "ComfyUI",
+    "PHP",
     "Generative AI"
 ]
 
