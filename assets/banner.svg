@@ -1,0 +1,35 @@
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="900" height="180" fill="#0d1117"/>
+
+<text x="50%" y="90"
+      text-anchor="middle"
+      fill="#58a6ff"
+      font-size="42"
+      font-family="monospace">
+Karperash_AI
+</text>
+
+<text x="50%" y="135"
+      text-anchor="middle"
+      fill="#8b949e"
+      font-size="20"
+      font-family="monospace">
+
+GENERATIVE AI • MACHINE LEARNING
+
+</text>
+
+
+<circle cx="100" cy="90" r="8" fill="#58a6ff">
+
+<animate
+attributeName="opacity"
+values="1;0.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+
+</svg>

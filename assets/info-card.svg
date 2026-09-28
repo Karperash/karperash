@@ -1,0 +1,110 @@
+<svg width="700" height="350" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="700" height="350" rx="15" fill="#0d1117" stroke="#30363d"/>
+
+
+<!-- Terminal dots -->
+<circle cx="35" cy="30" r="8" fill="#ff5f56"/>
+<circle cx="60" cy="30" r="8" fill="#ffbd2e"/>
+<circle cx="85" cy="30" r="8" fill="#27c93f"/>
+
+
+<text x="120" y="38"
+font-family="monospace"
+font-size="18"
+fill="#8b949e">
+karperash@github:~
+</text>
+
+
+<text x="40" y="90"
+font-family="monospace"
+font-size="22"
+fill="#58a6ff">
+
+$ whoami
+
+</text>
+
+
+<text x="40" y="130"
+font-family="monospace"
+font-size="20"
+fill="#c9d1d9">
+
+Karperash
+
+</text>
+
+
+<text x="40" y="175"
+font-family="monospace"
+font-size="22"
+fill="#58a6ff">
+
+$ skills
+
+</text>
+
+
+<text x="40" y="215"
+font-family="monospace"
+font-size="18"
+fill="#c9d1d9">
+
+Python
+
+</text>
+
+<text x="180" y="215"
+font-family="monospace"
+font-size="18"
+fill="#c9d1d9">
+
+PyTorch
+
+</text>
+
+<text x="330" y="215"
+font-family="monospace"
+font-size="18"
+fill="#c9d1d9">
+
+AI
+
+</text>
+
+
+<text x="40" y="260"
+font-family="monospace"
+font-size="18"
+fill="#c9d1d9">
+
+ComfyUI • Machine Learning • Generative AI
+
+</text>
+
+
+<text x="40" y="310"
+font-family="monospace"
+font-size="18"
+fill="#8b949e">
+
+System online...
+
+</text>
+
+
+<!-- blinking cursor -->
+<rect x="235" y="293" width="12" height="22" fill="#58a6ff">
+
+<animate
+attributeName="opacity"
+values="1;0;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+</svg>
