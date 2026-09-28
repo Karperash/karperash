@@ -27,13 +27,13 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pillow requests
+        pip install pillow requests beautifulsoup4
 
 
     - name: Generate SVG
       run: |
         python scripts/fetch_contributions.py
         python scripts/generate_card.py
-        python scripts/make_avatar.py
         python scripts/render_heatmap.py
 
 
